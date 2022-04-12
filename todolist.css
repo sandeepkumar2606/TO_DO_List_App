@@ -1,0 +1,78 @@
+#container
+{
+    display:flex;
+    font-size: 1.5rem;
+    justify-content: center;
+    margin:2rem;
+    padding:0.5rem;
+
+}
+
+#inputtext
+{
+    margin-right: 6rem;
+    font-size: 1.3rem;
+}
+
+#list
+{
+    display:block;
+    width:650px;
+    align-items:center;
+    /* margin-left:8rem; */
+    margin:1rem;
+    font-size: 1.5rem;
+    /* color: #ff9900; */
+    font-family: sans-serif;
+    margin-left:28%;
+}
+
+
+
+.listinput
+{
+    height:22px;
+    width:22px;
+    margin-right:5px;
+}
+
+#list li
+{
+    /* margin:1rem; */
+    display:flex;
+    justify-content:start;
+    flex-wrap: wrap;
+    /* margin-left:25%; */
+    margin-bottom:10px;
+    overflow: hidden;
+    height:auto;
+    padding:1rem;
+}
+
+li:hover
+{
+    background-color: rgb(220, 225, 231);
+    opacity: 0.9;
+}
+
+
+.listlabel
+{
+    margin-right:20rem !important;
+    color: #ff9900;
+    
+}
+
+.listlabel1
+{
+    margin-right:20rem !important;
+    color: green;
+    
+}
+
+i
+{
+    position:absolute;
+    margin-left:100px;
+    color:red;
+}
